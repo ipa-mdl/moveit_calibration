@@ -10,7 +10,6 @@ jobs:
     env:
       DOCKER_IMAGE: 'moveit/moveit:melodic-source'
       UPSTREAM_WORKSPACE: 'upstream.rosinstall'
-      BASEDIR: ${{ github.workspace }}/.work
       UNDERLAY: /root/ws_moveit
       
     runs-on: ubuntu-latest
